@@ -4,8 +4,8 @@ import { Button } from "@/components/ui/button";
 function HeroCTA() {
 	return (
 		<HeroBase>
-			<div className="flex flex-col gap-4">
-				<div className="flex flex-col gap-2">
+			<div className="flex flex-col gap-4 justify-around md:flex-row">
+				<div className="flex flex-col gap-2 max-w-124 content-center justify-center">
 					<h1 className="font-bold text-4xl">
 						Nutrisacional, um lugar para aprender mais sobre você e sua nutrição
 					</h1>
