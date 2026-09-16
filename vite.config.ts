@@ -2,6 +2,7 @@ import path from "path"
 import react, { reactCompilerPreset } from '@vitejs/plugin-react'
 import babel from '@rolldown/plugin-babel'
 import tailwindcss from '@tailwindcss/vite'
+import { VitePWA } from 'vite-plugin-pwa'
 import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
@@ -10,6 +11,12 @@ export default defineConfig({
     react(),
     babel({ presets: [reactCompilerPreset()] }),
 		tailwindcss(),
+		VitePWA({
+      registerType: 'autoUpdate',
+      devOptions: {
+        enabled: true
+      }
+    })
   ],
 	resolve: {
     alias: {
