@@ -1,12 +1,13 @@
+import { Outlet } from "react-router"
 import { Header, Main, Footer } from "./components"
 
-function Wrapper({children} : React.PropsWithChildren) {
+function Wrapper() {
   return (
     <>
       <Header />
 
 			<Main>
-				{ children }
+				<Outlet />
 			</Main>
 
 			<Footer />
