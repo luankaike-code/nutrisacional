@@ -1,6 +1,6 @@
 function Header() {
   return (
-		<header className="bg-pink-500">
+		<header>
 			HEADER
 		</header>
   )

@@ -1,6 +1,6 @@
 function Main({children} : React.PropsWithChildren) {
   return (
-		<main className="bg-yellow-500">
+		<main>
 			{ children }
 		</main>
   )
