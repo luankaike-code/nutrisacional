@@ -1,11 +1,8 @@
-import { useNavigate } from "react-router";
 import { HeroBase } from "../components";
-import { Button } from "@/components/ui/button";
 import { Title } from "@/components/Title/title";
+import type { PropsWithChildren } from "react";
 
-function HeroCTA() {
-	const navigate = useNavigate();
-
+function HeroCTA({ src, children }: { src: string } & PropsWithChildren) {
 	return (
 		<HeroBase>
 			<div className="flex flex-col gap-4 justify-around md:flex-row">
@@ -17,12 +14,11 @@ function HeroCTA() {
 						Nutrisacional foi criado para conscientizar você sobre como sua nutrição funciona e como você pode cuidar dela para atingir o seu objetivo.
 					</p>
 					<div className="flex flex-col gap-2">
-						<Button>Comece Agora</Button>
-						<Button variant="outline" onClick={() => navigate("/doc")}>Leia Mais</Button>
+						{children}
 					</div>
 				</div>
 				<div>
-					<img src="https://placehold.co/600x800"/>
+					<img src={src}/>
 				</div>
 			</div>
 		</HeroBase>
