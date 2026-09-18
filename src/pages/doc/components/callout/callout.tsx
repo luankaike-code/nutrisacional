@@ -10,9 +10,9 @@ const calloutVariants = cva(
   {
     variants: {
       variant: {
-        warning: "bg-blue-50 border-blue-500 text-blue-900",
-        important: "bg-amber-50 border-amber-500 text-amber-900",
-        curiosity: "bg-red-50 border-red-500 text-red-900",
+        warning: "bg-amber-50 border-amber-500 text-amber-900",
+        important: "bg-red-50 border-red-500 text-red-900",
+        curiosity: "bg-blue-50 border-blue-500 text-blue-900",
       },
     defaultVariants: {
       variant: "curiosity",
