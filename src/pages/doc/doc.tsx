@@ -1,6 +1,8 @@
 import { Title } from "@/components";
 import { useState, useEffect } from "react";
 import ReactMarkdown from 'react-markdown';
+import remarkDirective from "remark-directive";
+import { CalloutBlock, remarkCallouts } from "./components";
 
 function Doc() {
 	const [content, setContent] = useState('');
@@ -14,8 +16,10 @@ function Doc() {
 	return (
 		<div style={{ padding: '20px' }}>
 			<ReactMarkdown
+				remarkPlugins={[remarkDirective, remarkCallouts]}
 				components={{
 					h1: Title,
+					callout: ({ node, variant, children }) => <CalloutBlock variant={variant}>{children}</CalloutBlock>
 				}}
 			>
 				{content}
