@@ -11,7 +11,7 @@ function Header() {
 				<ul className="flex">
 					<LiLink href="/">Início</LiLink>
 					<LiLink href="/doc">Documentação</LiLink>
-					<LiLink href="/doc">Calculadora</LiLink>
+					<LiLink href="/calculator">Calculadora</LiLink>
 				</ul>
 			</header>
 			<div className="block w-full h-16"></div>
