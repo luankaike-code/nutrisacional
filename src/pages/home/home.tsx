@@ -7,7 +7,7 @@ function Home() {
   return (
     <>
       <HeroCTA src={"https://placehold.co/600x800"}>
-				<Button onClick={() => navigate("/")}>Use nossa calculadora</Button>
+				<Button onClick={() => navigate("/calculator")}>Use nossa calculadora</Button>
 				<Button onClick={() => navigate("/doc")} variant="outline">Leia mais</Button>
 			</HeroCTA>
     </>
