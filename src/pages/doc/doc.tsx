@@ -20,7 +20,7 @@ function Doc() {
 				components={{
 					h1: Title,
 					h2: SubTitle,
-					callout: ({ node, variant, children }) => <CalloutBlock variant={variant}>{children}</CalloutBlock>
+					callout: ({ variant, children }) => <CalloutBlock variant={variant}>{children}</CalloutBlock>
 				}}
 			>
 				{content}
