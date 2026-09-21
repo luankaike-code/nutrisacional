@@ -1,4 +1,4 @@
-import { Title } from "@/components";
+import { Title, SubTitle } from "@/components";
 import { useState, useEffect } from "react";
 import ReactMarkdown from 'react-markdown';
 import remarkDirective from "remark-directive";
@@ -19,6 +19,7 @@ function Doc() {
 				remarkPlugins={[remarkDirective, remarkCallouts]}
 				components={{
 					h1: Title,
+					h2: SubTitle,
 					callout: ({ node, variant, children }) => <CalloutBlock variant={variant}>{children}</CalloutBlock>
 				}}
 			>
