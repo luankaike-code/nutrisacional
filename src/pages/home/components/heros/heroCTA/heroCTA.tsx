@@ -1,5 +1,5 @@
 import { HeroBase } from "../components";
-import { Title } from "@/components/Title/title";
+import { Title } from "@/components/Titles/titles";
 import type { PropsWithChildren } from "react";
 
 function HeroCTA({ src, children }: { src: string } & PropsWithChildren) {
