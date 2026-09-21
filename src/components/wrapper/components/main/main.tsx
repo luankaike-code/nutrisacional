@@ -1,6 +1,6 @@
 function Main({children} : React.PropsWithChildren) {
   return (
-		<main>
+		<main className="flex flex-col">
 			{ children }
 		</main>
   )
