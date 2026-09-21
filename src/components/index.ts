@@ -1,4 +1,4 @@
 import { Wrapper } from "./wrapper/wrapper";
-import { Title } from "./Title/title";
+import { Title, SubTitle } from "./Titles/titles";
 
-export { Wrapper, Title }
+export { Wrapper, Title, SubTitle }

@@ -8,4 +8,12 @@ function Title({children}: PropsWithChildren){
 	)
 }
 
-export { Title }
+function SubTitle({children}: PropsWithChildren){
+	return (
+		<h1 className="font-bold text-2xl">
+			{children}
+		</h1>
+	)
+}
+
+export { Title, SubTitle }
