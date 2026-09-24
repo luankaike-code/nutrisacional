@@ -1,9 +1,10 @@
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
 import type { NutritionalValues } from "../calculatorForm/calculatorForm"
 import { useEffect, useState, type HTMLAttributes } from "react"
 import { CalculatorResultsField } from "./components"
 import { cn } from "@/lib/utils"
 import Favicon from "@/../public/favicon.svg"
+import { Button } from "@/components/ui/button"
 
 function CalculatorResults({calcResults, className, ...props}: 
 	{calcResults?: NutritionalValues | null} & HTMLAttributes<HTMLDivElement>){
@@ -12,6 +13,26 @@ function CalculatorResults({calcResults, className, ...props}:
 	useEffect(() => {
 		setResults(calcResults?? null)
 	}, [calcResults])
+
+	function handleCopyResults() {
+		if(!results) return
+		const resultsString = `Valores Nutricionais
+		TBM: ${results.TBM.toFixed(2)} cal/dia
+		GET: ${results.GET.toFixed(2)} cal/dia
+		Proteínas por quilo: ${results.gramsProteinToWeightRatio.toFixed(2)} g/kg
+		Carboidratos por quilo: ${results.gramsFatToWeightRatio.toFixed(2)} g/kg
+		
+		Sugestões de Nutrição:
+		Proteínas: ${results.gramsProtein.toFixed(2)} g/dia
+		Carboidratos: ${results.gramsCarbs.toFixed(2)} g/dia
+		Gorduras: ${results.gramsFat.toFixed(2)} g/dia`
+
+		navigator.clipboard.writeText(resultsString)
+	}
+
+	function handleClearResults() {
+		setResults(null)
+	}
 	
 	return (
 		<Card className={cn("w-full", className)} {...props}>
@@ -50,6 +71,14 @@ function CalculatorResults({calcResults, className, ...props}:
 					</ul>
 				}
 			</CardContent>
+			<CardFooter>
+				{results &&
+					<div className="flex flex-col gap-2 w-full">
+						<Button className="w-full" onClick={handleCopyResults}>Copiar Resultado</Button>
+						<Button variant="outline" onClick={handleClearResults}>Limpar Resultado</Button>
+					</div>
+				}
+			</CardFooter>
 		</Card>
 	)
 }
