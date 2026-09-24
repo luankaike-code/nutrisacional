@@ -2,6 +2,7 @@ import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/com
 import type { NutritionalValues } from "../calculatorForm/calculatorForm"
 import type { HTMLAttributes } from "react"
 import { cn } from "@/lib/utils"
+import Favicon from "@/../public/favicon.svg"
 
 function CalculatorResults({calcResults, className, ...props}: 
 	{calcResults?: NutritionalValues | null} & HTMLAttributes<HTMLDivElement>){
@@ -11,9 +12,12 @@ function CalculatorResults({calcResults, className, ...props}:
 				<CardTitle>Resultados</CardTitle>
 				<CardDescription>Valores nutricionais calculados</CardDescription>
 			</CardHeader>
-			<CardContent className="flex flex-col gap-2">
+			<CardContent className="h-full flex flex-col gap-2">
 				{ !calcResults &&
 					<>
+						<div className="flex justify-center items-center h-full w-full gap-2">
+							<img src={Favicon} className="animate-bounce w-1/3" />
+						</div>
 					</>
 				}
 				{ calcResults &&
