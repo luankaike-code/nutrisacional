@@ -1,16 +1,10 @@
-import { Button } from "@/components/ui/button";
+import { Link } from "@/components/link/link";
 import type { PropsWithChildren } from "react";
-import { useNavigate, useLocation } from "react-router";
 
-function LiLink({href, children}: {href: string} & PropsWithChildren) {
-	const location = useLocation()
-	const navigate = useNavigate();
-	
+function LiLink({href, children}: {href: string} & PropsWithChildren) {	
 	return (
 		<li>
-			<Button variant="link" onClick={() => navigate(href)} role="link" className={location.pathname == href? "text-rose-500": ""}>
-				{children}
-			</Button>
+			<Link href={href}>{children}</Link>
 		</li>
 	)
 }
