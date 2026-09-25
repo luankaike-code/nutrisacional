@@ -25,6 +25,7 @@ function Doc() {
 					h1: (props) => <Title className="mt-4" {...props} />,
 					h2: (props) => <SubTitle className="mt-2" {...props} />,
 					callout: ({ variant, children }) => <CalloutBlock variant={variant}>{children}</CalloutBlock>,
+					p: ({ children }) => <p className="my-2">{children}</p>,
 				}}
 			>
 				{content}
