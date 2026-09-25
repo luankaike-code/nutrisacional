@@ -10,9 +10,9 @@ function Title({children}: PropsWithChildren){
 
 function SubTitle({children}: PropsWithChildren){
 	return (
-		<h1 className="font-bold text-2xl">
+		<h2 className="font-bold text-2xl">
 			{children}
-		</h1>
+		</h2>
 	)
 }
 
