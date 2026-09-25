@@ -7,7 +7,7 @@ function Link({href, children}: {href: string} & PropsWithChildren) {
 	const navigate = useNavigate();
 	
 	return (
-		<Button variant="link" onClick={() => navigate(href)} role="link" className={location.pathname == href? "text-rose-500": ""}>
+		<Button variant="link" onClick={() => navigate(href)} role="link" className={"hover:text-rose-500" + (location.pathname === href ? "text-rose-500" : "")}>
 			{children}
 		</Button>
 	)
