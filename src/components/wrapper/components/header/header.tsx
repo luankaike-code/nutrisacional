@@ -9,7 +9,7 @@ function Header() {
 	const navigate = useNavigate();
   return (
 		<>
-			<header className="fixed flex w-full h-16 p-4 pr-8 bg-white justify-between border-b border-t-slate-200 dark:border-t-slate-700s">
+			<header className="fixed flex w-full h-16 p-4 pr-8 bg-white justify-between border-b border-t-slate-200 dark:border-t-slate-700s z-50">
 				<img src={CompleteIcon} className="h-full" onClick={() => navigate("/")}/>
 				<ul className="hidden md:flex">
 					<li><Link href="/">Início</Link></li>
