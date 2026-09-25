@@ -9,7 +9,7 @@ function Doc() {
 	const [content, setContent] = useState('');
 
 	useEffect(() => {
-		fetch('nutrisacional/doc.md')
+		fetch(`${import.meta.env.BASE_URL}doc.md`)
 		.then((res) => res.text())
 		.then((text) => setContent(text));
 	}, []);
