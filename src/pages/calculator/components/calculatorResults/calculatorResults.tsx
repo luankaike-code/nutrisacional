@@ -5,6 +5,7 @@ import { CalculatorResultsField } from "./components"
 import { cn } from "@/lib/utils"
 import Favicon from "@/../public/favicon.svg"
 import { Button } from "@/components/ui/button"
+import { toast } from "@/components/ui/toast"
 
 function CalculatorResults({calcResults, className, ...props}: 
 	{calcResults?: NutritionalValues | null} & HTMLAttributes<HTMLDivElement>){
@@ -27,7 +28,16 @@ function CalculatorResults({calcResults, className, ...props}:
 		Carboidratos: ${results.gramsCarbs.toFixed(2)} g/dia
 		Gorduras: ${results.gramsFat.toFixed(2)} g/dia`
 
-		navigator.clipboard.writeText(resultsString)
+		navigator.clipboard.writeText(resultsString).then(() => {
+			toast.add({
+				title: "Copiado para a área de transferência",
+			})
+		}).catch((err) => {
+			toast.add({
+      title: "Erro ao copiar para a área de transferência",
+			description: err.message,
+    })
+		})
 	}
 
 	function handleClearResults() {
@@ -73,7 +83,7 @@ function CalculatorResults({calcResults, className, ...props}:
 				{results &&
 					<div className="flex flex-col gap-2 w-full">
 						<Button className="w-full" onClick={handleCopyResults}>Copiar Resultado</Button>
-						<Button variant="outline" onClick={handleClearResults}>Limpar Resultado</Button>
+						<Button variant="outline" onClick={() => handleClearResults()}>Limpar Resultado</Button>
 					</div>
 				}
 			</CardFooter>
