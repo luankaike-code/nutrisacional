@@ -56,7 +56,7 @@ function CalculatorResults({calcResults, className, ...props}:
 								<CalculatorResultsField label="TBM" value={results.TBM} unit="cal/dia" />
 								<CalculatorResultsField label="GET" value={results.GET} unit="cal/dia" />
 								<CalculatorResultsField label="Proteínas por quilo" value={results.gramsProteinToWeightRatio} unit="g/kg" />
-							<CalculatorResultsField label="Carboidratos por quilo" value={results.gramsFatToWeightRatio} unit="g/kg" />
+							<CalculatorResultsField label="Gorduras por quilo" value={results.gramsFatToWeightRatio} unit="g/kg" />
 							</ul>
 						</li>
 
