@@ -1,120 +1,159 @@
-# Antes de mais nada
-Cada corpo é diferente e isso é um fato. Algumas pessoas possuem mais facilidade em perder massa, outras em ganhar massa e algumas possuem facilidade de ganhar.
-Abaixo ensinaremos o básico de como nosso metabolismo funciona e como podemos montar uma dieta de acordo com nossos objetivos.
-# Gasto Energético Basal
-Gasto Energético Basal, ou GEB, equivalente a quantidade de energia necessária para manter o seu corpo em repouso absoluto.
+# Antes de Mais Nada
+
+Cada corpo é único. Algumas pessoas possuem mais facilidade para perder peso, outras para ganhar massa muscular e outras acumulam gordura com mais facilidade.
+
+Abaixo, explicaremos o básico de como o nosso metabolismo funciona e como você pode estruturar uma alimentação alinhada aos seus objetivos.
+
+---
+
+# Como o Corpo Gasta Energia?
+
+## Gasto Energético Basal (GEB)
+
+O Gasto Energético Basal (GEB) — também conhecido como Taxa Metabólica Basal (TMB) — equivale à quantidade mínima de energia que o seu corpo precisa para se manter vivo e funcionando em repouso absoluto, garantindo funções vitais como respirar, bombear sangue e manter os órgãos ativos.
 
 :::important
-Independente do seu objetivo (emagrecer, ganhar massa ou ser saudável) não se deve consumir menos calorias do que a sua GEB.
+Independentemente do seu objetivo (emagrecer, ganhar massa ou ter mais saúde), nunca consuma menos calorias do que o seu GEB/TMB.
 :::
-# Gasto Energético com Atividade Física
-Gasto Energético com Atividade Física, ou GEAF, equivale a quantidade de energia gasta para o seu corpo fazer atividades físicas.
+
+## Gasto Energético com Atividade Física (GEAF)
+
+O Gasto Energético com Atividade Física (GEAF) é a quantidade de energia gasta no movimento do dia a dia e nos treinos.
 
 :::curiosity
-Atividade física, nesse caso, abrange deste fazer fazer uma flexão até lavar a louça ou simplesmente pensar. Atividade é tudo o que você faz no dia.
+A atividade física abrange desde fazer um treino pesado de musculação até escovar os dentes, caminhar até o ponto de ônibus, lavar a louça ou estudar. Tudo o que envolve movimento consome energia.
 :::
-## Efeito Térmico dos Alimentos
-Efeito Térmico dos Alimentos, ou ETA, é o gasto energético provido pela digestão. Em suma, ao ingerir um alimento, o seu corpo gasta energia para absorver-lo. Quanto mais complexo o alimento, mais energia o seu corpo gastará para absover-lo.
-Alimentos complexos são aqueles que possuem bastante fibra e/ou amido, carbroidratos complexos. Sendo grãos, legumes, vegetais e tubérculos alguns exemplos básicos.
-Alimentos simples são aqueles que possuem pouca fibra e/amido, carboidratos complexo. Sendo o arroz branco, frango frito, legumes cozidos, açúcar fino, refrigerante e doces alguns exemplos.
+
+## Efeito Térmico dos Alimentos (ETA)
+
+O Efeito Térmico dos Alimentos (ETA) é o gasto energético gerado pelo processo de digestão e absorção dos nutrientes. Em suma: o corpo também gasta energia para processar o que você come.
+
+Quanto mais complexo for o alimento, mais energia o corpo gastará para absorvê-lo. Alimentos complexos são ricos em fibras, amido e carboidratos de digestão lenta (como grãos integrais, legumes, vegetais e tubérculos). Já alimentos simples e processados são pobres em fibras e rapidamente absorvidos (como açúcar refinado, refrigerantes, doces e farinha branca).
 
 :::warning
-Vale lembrar que o modo de preparo, cultivo e armazenagem podem alterar a complexidade de um alimento.
-:::
-# Gasto Energético Total 
-Gasto Energético Total, ou GET, é, como o próprio nome sugere, o gasto de energia total de o seu corpo gasta. 
-Sendo assim, o GET equivale a GEB + GEAF + ETA.
-
-> O GEB representa certa de 70% a 60% do GET; GEAF equivale a 30% a 15%; e o ETA certa de 15% a 5%. 
-
->  GEAF é, de todos, o componente mais moldável e variável do GET. Você pode, por exemplo, aumenta-lo fazendo academia, o que aumenta,  por consequência, o GET.
-
-# Calculando o TBM diário 
-:::important
-A formula a seguir leva em consideração a idade em anos, o gênero, a altura em centímetros e o peso em kilos de uma pessoa. Ela não leva em conta a porcentagem de gordura, assim,  ela se torna mais imprecisas com forme mais exótico o físico de uma pessoa for. Por exemplo, uma pessoa com pouca gordura e 70kg consome tem o TBM moir do que uma pessoa com mais gordura de,  também, 70kg. Mas isso não é refletido na fórmula, segundo ela, as duas pessoas teriam o mesmo TBM.
+O modo de preparo, cultivo e armazenamento podem alterar a velocidade de absorção e a complexidade de um alimento.
 :::
 
-A fórmula de Mifflin St Jeorfoi desenvolvida em 1990 e, dentre todas, é considerada a mais precisa, com, segundo um estudo de 2005, apenas 10% de erro. Ela é representa abaixo:
+---
 
-TBM em calorias = (10 × peso em kg) + (6,25 × altura em cm) - (5 × idade em anos) + fator de gênero
+# Gasto Energético Total (GET)
 
-Para homens o fator de gênero vale 5, para mulheres, ele vale -161.
+O Gasto Energético Total (GET) representa a quantidade total de calorias que o seu corpo queima ao longo de um dia inteiro.
+
+:::formula
+GET = GEB + GEAF + ETA
+:::
+
+Em relação ao total do GET, o GEB representa de 60% a 70% do gasto diário, o GEAF representa de 15% a 30%, e o ETA representa de 5% a 15%. O GEAF é o componente mais moldável do GET. Aumentar o seu nível de atividade diária ou a intensidade dos treinos eleva diretamente o seu GET.
+
+---
+
+# Calculando a Taxa Metabólica Basal (TMB)
 
 :::important
-Essa formula é apenas uma estimativa das calorias que o seu corpo, em repouso absoluto, gasta diariamente. Não a leve ao pé da letra, há uma margem de 10% na **maioria** dos casos. Sinais de tontura, fraqueza, dentre outras, não são comuns e nem são esperadas.
+A fórmula a seguir leva em consideração idade, gênero, altura e peso. Ela não mede a porcentagem de gordura corporal, tornando-se menos precisa para pessoas com composições corporais atípicas. Por exemplo: duas pessoas de 70 kg terão o mesmo resultado na fórmula, mesmo que uma tenha 8% de gordura e a outra 30%.
 :::
 
-# Calculando o GET 
-Para calcularmos o GET primeiro precisamos saber primeiro sobre a Taxa de Atividade  algo que faremos abaixo 
-## Taxa de Atividade
-Taxa de Atividade, ou TA, é um número adimensional, sem grandeza, sem unidade de medida. Ele serve para representa o GEAF e o ETA.
-"Porque usar o TA ao invés do GEAF e o ETA direto?", Simples, não há como calcula-los de forma viável e confiável. Assim, o TA é maneira mais segura de representá-los.
-Para descobrir o valor da sua TA.
+A Fórmula de Mifflin-St Jeor (desenvolvida em 1990) é considerada uma das mais precisas para estimativa metabólica sem medição direta:
 
-Nível de atividade - referência - Valor do TA
-sedentario - poucos ou nenhum exercício - 1,2
-leve - atividades domésticas - 1,375
-medio - acadêmica moderada de 3 a 5 dias por semana - 1,55
-alto - crossfit de 5 a 6 dias na semana - 1,725
-muito alto - trabalhar na descarrega de caminhões diariamente - 1,9
-## Formula para calcular o GET
-A fórmula é simples, apenas multiplicamos o TMB pelo TA. 
+:::formula
+TMB (homens) = (10 × peso em kg) + (6,25 × altura em cm) - (5 × idade em anos) + 5
+:::
 
-GET = TBM × TA
-
-O resultado será o nosso GET na mesma grandeza que o TBM está. Ou seja, se o TBM estiver em calorias por dia, o GET também será em calorias por dia.
+:::formula
+TMB (mulheres) = (10 × peso em kg) + (6,25 × altura em cm) - (5 × idade em anos) - 161
+:::
 
 :::important
-Essa formula é apenas uma estimativa das calorias que o seu corpo gasta diariamente. Não a leve ao pé da letra. Sinais de tontura, fraqueza, dentre outras, não são comuns e nem são esperadas.
+Essa fórmula é apenas uma estimativa teórica. Sinais de tontura, fraqueza excessiva ou indisposição frequente não são normais. Caso sinta esses sintomas, reavalie sua ingestão calórica.
 :::
-# Nutrientes
-Existem 3 tipos principais de nutrientes: proteína, gordura e carboidratos. Todos desempenham um papel fundamental no nosso corpo e devem ser consumidos com moderação.
-Cada um possuí um valor energético específico, abaixo uma tabela que demonstra isso.
 
-Nutriente - Valor energético
-1g de Proteína - 4 calorias 
-1g de Carboidrato - 4 calorias 
-1g de Gordura - 9 calorias 
-## consumo diário de nutrientes
-Nosso corpo necessita de uma quantidade diária certa de cada um desses nutrientes para não entrar em colapso. Para descobrirmos a quantidade usamos as seguintes fórmulas matemáticas:
+---
 
-Gramas de proteína = peso em kg x (1 à 2,0)
-Gramas de gordura = peso em kg x (0,8 à 1,2)
-Gramas de carboidrato = peso em kg x (3 à 6)
+# Calculando o GET
 
-Como você pode ver, à um intervalo de quantidade em todas as formulas, "1 à 2,0",
- por exemplo. Isso ocorre porque a quantidade de nutrientes que você deve consumir está intrinsecamente ligado ao seu objetivo e sua rotina.
- 
- # Montando uma dieta
- 
- Para montarmos uma dieta precisamos, antes, definir um objetivo claro e alcançável, como, por exemplo, perder 2kg em 1 mês ou ganhar 2kg em 1 mês.
- 
- Feito isso, podermos definir a quantidade de cada nutriente seguinto as seguintes formulas:
- 
-Gramas de proteína = peso em kg x (1 à 2,0)
-Gramas de gordura = peso em kg x (0,8 à 1,2)
-Gramas de carboidrato = (GET - Calorias de proteínas - Calorias de gordura) / 4
+Para calcular o GET, aplicamos o Fator de Atividade (FA) sobre a TMB calculada.
+
+## Fator de Atividade (FA)
+
+O Fator de Atividade é um multiplicador que estima o impacto conjunto do GEAF e do ETA na sua rotina:
+
+* Para rotina sedentária (pouco ou nenhum exercício diário), o FA é 1,200.
+* Para rotina leve (exercícios leves ou tarefas domésticas de 1 a 3 dias por semana), o FA é 1,375.
+* Para rotina moderada (treino moderado de 3 a 5 dias por semana), o FA é 1,550.
+* Para rotina alta (treino pesado de 6 a 7 dias por semana), o FA é 1,725.
+* Para rotina muito alta (atleta profissional ou trabalho braçal pesado diário), o FA é 1,900.
+
+## Fórmula do GET
+
+:::formula
+GET = TMB × FA
+:::
+
+Se a sua TMB for calculada em calorias por dia, o resultado do GET também será em calorias por dia (kcal/dia).
+
+---
+
+# Macronutrientes
+
+Existem três macronutrientes principais que fornecem a energia que o corpo precisa. Cada grama de proteína fornece 4 kcal, cada grama de carboidrato fornece 4 kcal, e cada grama de gordura fornece 9 kcal.
+
+---
+
+# Montando a Dieta
+
+Para estruturar um plano alimentar, primeiro defina um objetivo claro entre Manutenção, Ganho de Massa (Bulking) ou Perda de Gordura (Cutting).
+
+### Passo 1: Calcular Proteínas e Gorduras
+
+A quantidade de proteínas e gorduras é calculada com base no seu peso corporal. O consumo recomendado de proteínas varia de 1,6 a 2,2 gramas por quilograma de peso corporal (usando valores mais altos para quem treina pesado ou está em cutting). Já o consumo de gorduras varia de 0,8 a 1,2 gramas por quilograma de peso corporal.
+
+### Passo 2: Definir a Meta Calórica Diária
+
+:::formula
+Meta Calórica = GET + Balanço Calórico
+:::
+
+Para manutenção do peso, o Balanço Calórico é igual a 0 kcal. Para Bulking (ganho de massa), adicione um superávit de +200 a +500 kcal. Para Cutting (perda de gordura), aplique um déficit de -200 a -500 kcal.
+
+### Passo 3: Calcular os Carboidratos
+
+Os carboidratos vão preencher as calorias restantes da sua meta:
+
+:::formula
+Gramas de Carboidrato = (Meta Calórica - (Calorias de Proteína + Calorias de Gordura)) / 4
+:::
+
+---
+
+# Qualidade dos Alimentos
+
+Tão importante quanto bater as metas de macronutrientes é a qualidade dos alimentos. Para identificar a qualidade de um produto industrializado, observe a lista de ingredientes.
+
+Por lei, os ingredientes aparecem em ordem decrescente (do maior para o menor volume). Se os primeiros ingredientes forem açúcar, gordura vegetal ou água, o alimento tem baixa densidade nutricional. Além disso, quanto mais nomes complexos e desconhecidos houver na lista (como conservantes, corantes e aromatizantes), mais ultraprocessado é o produto. Produtos com listas curtas de ingredientes tendem a ser mais naturais e de fácil digestão para o organismo.
+
+---
+
+# Fases da Mudança Corporal: Bulking vs. Cutting
+
+Para construir um físico com maior massa muscular e baixa porcentagem de gordura, costuma-se dividir o processo em duas fases sequenciais.
+
+A primeira fase é o Bulking, focado no ganho de massa muscular. Ele consiste em consumir ligeiramente mais calorias do que o seu GET (superávit calórico), pois o corpo precisa desse excesso de energia para sintetizar novas fibras musculares.
+
+:::curiosity
+Um pequeno ganho de gordura durante a fase de Bulking é normal e esperado. Desde que o superávit não seja exagerado, essa gordura acumulada será facilmente removida na fase seguinte.
+:::
 
 :::warning
-Para descobrir as calorias de gordura e de proteína basta voltar a tabela "nutrientes x valor energético"
+Se perceber um ganho rápido e excessivo de gordura corporal, o seu superávit pode estar alto demais. Reduza o superávit calórico para ajustar o ritmo de ganho de peso.
 :::
 
-Claro, seguir a fórmula acima fará você manter uma versão mais saudável do seu corpo. Caso queira ganhar ou perder massa há uma pequena mudança na fórmula de "Gramas de carboidrato", a adição do componente "Défice/Superátiv calorico":
+A segunda fase é o Cutting, focado na queima de gordura. Ele consiste em entrar em déficit calórico mantendo o consumo de proteínas alto e a intensidade dos treinos adequada para preservar a massa muscular conquistada enquanto o corpo queima a gordura estocada.
 
-Gramas de carboidrato = (GET + **Défice/Superátiv calorico** - Calorias de proteínas - Calorias de gordura) / 4
+:::important
+Em fases prolongadas de restrição calórica, preste atenção na recuperação muscular e no descanso. Caso sinta perda acentuada de força, ajuste a taxa do déficit ou consulte um nutricionista.
+:::
 
-O valor do componente "Défice/Superátiv calorico" depente do seu objetivo. Em suma, ele vale de 200 a 500 calorias, se o objetivo for ganhar massa; e -200 a -500 calorias, se o objetivo for perder massa.
+```
 
-## Qualidade dos alimentos
-Não consumir apenas a quantidade necessária de cada nutriente, você também precisa consumir alimentos de qualidade.
-Para saber se um alimento possui qualidade podemos ler seus ingredientes e fazer as seguintes perguntas:
-1) os 3 primeiros ingrediente condizem com o alimento? Por lei,  a ordem dos ingredientes de ser de acordo com a sua presença no alimento. Ou seja, se um molho de tomate tiver água, corante e conservante como primeiros ingredientes, não é incorreto dizer que você esse molho de tomate é, na verdade, água vermelha com sabor de tomate.
-2) Há mais de dois ingredientes que parecem compostos químicos? Caso pareçam, saiba que, muito provavelmente, se trata de alimento ultrapassado. Alguns ingredientes que se enquadram nisso são: ...
-3) Há mais de 5 ingredientes? Quanto mais ingredientes, menos natural um produto costuma ser, e, quanto menos natural, mais nosso organismo tem dificuldade em processá-lo de forma saudável.
-## Variedade na alimentação
-É extremamente recomendável ter uma alimentação variadas e, ao mesmo tempo, equilibrada.
-Para ter essa varidade siga a se, na semana, você consome três tipos diferentes de três grupos diferentes da pirâmide alimentar. 
-
-## Exemplos 
-Para maior compreensão, abaixo alguns exemplos de dieta
-...
+```
