@@ -2,8 +2,7 @@ name: Deploy do Vite no GitHub Pages
 
 on:
   push:
-    branches: ['main'] # Substitua por 'master' se a sua branch principal for master
-
+    branches: ['main']
   workflow_dispatch:
 
 permissions:
@@ -29,7 +28,10 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm' # Mude para 'pnpm' ou 'yarn' se usar outro gerenciador
+          cache: 'npm'
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
 
       - name: Instalar dependências
         run: npm ci
@@ -37,13 +39,10 @@ jobs:
       - name: Gerar o Build
         run: npm run build
 
-      - name: Setup Pages
-        uses: actions/configure-pages@v4
-
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
-          path: './dist' # O Vite gera a pasta 'dist' por padrão
+          path: './dist'
 
       - name: Deploy no GitHub Pages
         id: deployment
