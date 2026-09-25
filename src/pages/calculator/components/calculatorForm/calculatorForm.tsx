@@ -8,6 +8,7 @@ import { zodResolver } from "@hookform/resolvers/zod"
 import { useForm, Controller } from "react-hook-form"
 import type { HTMLAttributes } from "react"
 import { cn } from "@/lib/utils"
+import { Link } from "@/components"
 
 const caloricBalanceData: SelectData[] = [
 	{
@@ -130,9 +131,9 @@ return (
           Preencha os campos e descubra os seus valores nutricionais
         </CardDescription>
         <CardAction>
-          <Button variant="link" className="text-center break-all hover:text-rose-500">
+          <Link href="/doc">
             Leia mais
-          </Button>
+          </Link>
         </CardAction>
       </CardHeader>
       <form onSubmit={handleSubmit(onSubmit)}>
