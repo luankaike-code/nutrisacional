@@ -3,7 +3,7 @@ import { Link } from "@/components"
 
 function Footer() {
   return (
-		<footer className="flex flex-col-reverse md:flex-row justify-between items-center gap-4 p-8 border-t border-t-slate-200 dark:border-t-slate-700">
+		<footer className="flex flex-col-reverse md:flex-row justify-between md:pr-64 items-center gap-4 p-8 border-t border-t-slate-200 dark:border-t-slate-700">
 			<img src={CompleteIcon} className="w-sm" />
 			<ul className="w-36">
 				<li className="text-lg font-medium">Links Rápidos</li>
