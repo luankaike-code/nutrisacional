@@ -9,7 +9,7 @@ function Doc() {
 	const [content, setContent] = useState('');
 
 	useEffect(() => {
-		fetch('/doc.md')
+		fetch('nutrisacional/doc.md')
 		.then((res) => res.text())
 		.then((text) => setContent(text));
 	}, []);
