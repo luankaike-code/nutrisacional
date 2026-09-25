@@ -17,12 +17,6 @@ function Footer() {
 				<li><Link href="https://pt.wikipedia.org/wiki/Hipertrofia_muscular">Hipertrófia Muscular</Link></li>
 				<li><Link href="https://pt.wikipedia.org/wiki/Metabolismo_basal">Metabolismo Basal</Link></li>
 			</ul>
-			<ul className="w-36">
-				<li className="text-lg font-medium">Referências</li>
-				<li><Link href="https://pt.wikipedia.org/wiki/Metabolismo">Metabolismo</Link></li>
-				<li><Link href="https://pt.wikipedia.org/wiki/Hipertrofia_muscular">Hipertrófia Muscular</Link></li>
-				<li><Link href="https://pt.wikipedia.org/wiki/Metabolismo_basal">Metabolismo Basal</Link></li>
-			</ul>
 		</footer>
   )
 }
