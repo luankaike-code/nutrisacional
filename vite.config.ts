@@ -1,11 +1,27 @@
+import path from "path"
 import react, { reactCompilerPreset } from '@vitejs/plugin-react'
 import babel from '@rolldown/plugin-babel'
+import tailwindcss from '@tailwindcss/vite'
+import { VitePWA } from 'vite-plugin-pwa'
 import { defineConfig } from 'vite'
 
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [
     react(),
-    babel({ presets: [reactCompilerPreset()] })
+    babel({ presets: [reactCompilerPreset()] }),
+		tailwindcss(),
+		VitePWA({
+      registerType: 'autoUpdate',
+      devOptions: {
+        enabled: false
+      }
+    })
   ],
+	resolve: {
+    alias: {
+      "@": path.resolve(import.meta.dirname, "./src"),
+    },
+  },
+	base: '/nutrisacional/',
 })

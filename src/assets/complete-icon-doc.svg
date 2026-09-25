@@ -2,12 +2,12 @@
 <!-- Created with Inkscape (http://www.inkscape.org/) -->
 
 <svg
-   width="31.666521mm"
+   width="193.08847mm"
    height="31.003372mm"
-   viewBox="0 0 31.666521 31.003372"
+   viewBox="0 0 193.08847 31.003372"
    version="1.1"
    id="svg1"
-   sodipodi:docname="favicon.svg"
+   sodipodi:docname="complete-icon-doc.svg"
    inkscape:version="1.4.4 (dcaf3e7d9e, 2026-05-05)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -23,9 +23,9 @@
      inkscape:pagecheckerboard="0"
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
-     inkscape:zoom="0.5532197"
-     inkscape:cx="233.18042"
-     inkscape:cy="38.863403"
+     inkscape:zoom="0.3911854"
+     inkscape:cx="388.56256"
+     inkscape:cy="338.71407"
      inkscape:window-width="1440"
      inkscape:window-height="872"
      inkscape:window-x="0"
@@ -38,18 +38,30 @@
      inkscape:label="Camada 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(-114.30001,-47.625)">
+     transform="translate(-138.64168,13.758335)">
     <g
-       id="g16-3-7-6"
-       transform="matrix(-0.55642752,-0.55642752,0.55642752,-0.55642752,131.60467,125.53666)">
+       id="g16-3-7-4-5"
+       transform="matrix(-0.55642752,-0.55642752,0.55642752,-0.55642752,155.94634,64.153325)"
+       style="fill:#ffffff;fill-opacity:1">
       <path
-         id="path3-5-0-1"
+         id="path3-5-0-7-2"
          style="fill:#ff008e;fill-opacity:1;stroke-width:20;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers"
          d="m 65.982819,73.904774 c 4.419063,-4.880882 8.727781,-10.996778 8.286023,-15.935875 -0.362409,-4.051932 -4.549281,-8.594766 -8.617111,-8.642186 -0.112449,-0.0013 -0.225589,0.0041 -0.338982,0.01579 l -6.746673,9.309935 a 1.0001,1.0001 0 0 1 -1.624792,-0.0079 L 49.674993,48.404496 c -0.417361,-0.16574 -0.83828,-0.258641 -1.257949,-0.259577 -4.237371,-0.0095 -8.337366,5.118018 -8.617111,9.346155 -0.670905,10.140223 17.234222,24.940725 17.234222,24.940725 0,0 4.529601,-3.646143 8.948664,-8.527025 z" />
       <path
-         style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;fill:#00ff6c;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
+         style="baseline-shift:baseline;display:inline;overflow:visible;opacity:1;vector-effect:none;fill:#00ff6c;fill-opacity:1;stroke-linecap:round;stroke-linejoin:round;paint-order:stroke fill markers;enable-background:accumulate;stop-color:#000000;stop-opacity:1"
          d="m 66.777172,45.616652 h -5.145151 l 2.929534,-12.154679 -6.830571,7.442235 -6.890354,-7.442235 2.98913,12.154679 h -4.907519 l 8.835205,12.448761 z"
-         id="path2-2" />
+         id="path2-6-5" />
     </g>
+    <text
+       xml:space="preserve"
+       style="font-weight:bold;font-size:21.1667px;line-height:11.9062px;font-family:Comfortaa;-inkscape-font-specification:'Comfortaa, Bold';letter-spacing:-0.79375px;writing-mode:lr-tb;direction:ltr;fill:#0a0a0a;fill-opacity:1;stroke:none;stroke-width:2;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:none;stroke-opacity:1;paint-order:stroke fill markers"
+       x="172.24969"
+       y="9.9560423"
+       id="text16-5-4"><tspan
+         sodipodi:role="line"
+         id="tspan16-6-7"
+         style="letter-spacing:-0.79375px;fill:#0a0a0a;fill-opacity:1;stroke:none;stroke-width:2"
+         x="172.24969"
+         y="9.9560423">Documentação</tspan></text>
   </g>
 </svg>
