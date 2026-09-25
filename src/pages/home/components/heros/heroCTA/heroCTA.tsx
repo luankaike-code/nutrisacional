@@ -18,7 +18,7 @@ function HeroCTA({ src, children }: { src: string } & PropsWithChildren) {
 					</div>
 				</div>
 				<div>
-					<img src={src}/>
+					<img className="w-md" src={src}/>
 				</div>
 			</div>
 		</HeroBase>
