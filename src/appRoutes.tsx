@@ -4,7 +4,7 @@ import { Doc, Home, Calculator } from "./pages"
 
 function AppRoutes() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/nutrisacional">
 			<Routes>
 				<Route element={<Wrapper />}>
 					<Route index element={<Home />} />
