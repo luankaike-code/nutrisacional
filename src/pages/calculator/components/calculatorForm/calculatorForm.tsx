@@ -90,7 +90,7 @@ function CalculatorForm({onCalculate, className, ...props}:
 	function calcNutritionalValues(data: CalculatorFormData): NutritionalValues {
 		const { age, height, weight, caloricBalance, activityRate, gender } = data
 
-		const genderFactor = gender === "male" ? 5 : -161
+		const genderFactor = gender === "Mas." ? 5 : -161
 		const TBM = (10 * weight) + (6.25 * height) - (5 * age) + genderFactor
 		const GET = TBM * activityRate + caloricBalance
 		

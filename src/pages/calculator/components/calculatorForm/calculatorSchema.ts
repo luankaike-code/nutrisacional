@@ -10,8 +10,8 @@ const activityRate: SelectDataItem[] = [
 ]
 
 const genders: SelectDataItem[] = [
-	{ label: "Masculino", value: "male" },
-	{ label: "Feminino", value: "female" },
+	{ label: "Masculino", value: "Mas." },
+	{ label: "Feminino", value: "Fem." },
 ]
 
 const calculatorSchema = z.object({
