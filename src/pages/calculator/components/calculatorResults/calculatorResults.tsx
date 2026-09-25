@@ -42,11 +42,9 @@ function CalculatorResults({calcResults, className, ...props}:
 			</CardHeader>
 			<CardContent className="h-full flex flex-col">
 				{ !results &&
-					<>
-						<div className="flex justify-center items-center h-full w-full gap-2">
-							<img src={Favicon} className="animate-bounce w-1/3" />
-						</div>
-					</>
+					<div className="flex justify-center min-h-64 items-center h-full w-full gap-2">
+						<img src={Favicon} className="animate-bounce w-1/3" />
+					</div>
 				}
 				{ results &&
 					<ul className="flex flex-col gap-8">
