@@ -1,16 +1,16 @@
-import type { PropsWithChildren } from "react";
+import type { Attributes, HTMLAttributes, PropsWithChildren } from "react";
 
-function Title({children}: PropsWithChildren){
+function Title({children, ...props}: PropsWithChildren & HTMLAttributes<HTMLHeadingElement>){
 	return (
-		<h1 className="font-bold text-4xl">
+		<h1 className="font-bold text-4xl" {...props}>
 			{children}
 		</h1>
 	)
 }
 
-function SubTitle({children}: PropsWithChildren){
+function SubTitle({children, ...props}: PropsWithChildren & HTMLAttributes<HTMLHeadingElement>){
 	return (
-		<h2 className="font-bold text-2xl">
+		<h2 className="font-bold text-2xl" {...props}>
 			{children}
 		</h2>
 	)
