@@ -4,7 +4,7 @@ import { Doc, Home, Calculator } from "./pages"
 
 function AppRoutes() {
   return (
-    <BrowserRouter basename="/nutrisacional">
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
 			<Routes>
 				<Route element={<Wrapper />}>
 					<Route index element={<Home />} />
